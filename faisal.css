@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: url(gif\ pemadangan.gif) ;
+    color: white;
+    background-size: cover;
+}
+
+.header {
+top: 0;
+left: 0;
+width: 100%;
+padding: 20px 10%;
+background-color:transparent;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.logo{
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navbar a {
+    font-size:18px;
+    color:white;
+    text-decoration:none;
+    font-weight :500px;
+    margin-left :35px;
+    transition: .3s;
+}
+
+.navbar a:hover ,
+.navbar a.active{
+color: green
+
+
+}
+
+.home{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.home img{
+    margin-left: 100px;
+}
+
+
+.home-content{
+    max-width: 600px;
+}
+
+.home-content h1{
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.home-content h3{
+    font-size: 32;
+    font-weight: 700;
+    color:aliceblue(246, 239, 239);
+}
+
+.home-content p{
+    font-size: 16;
+    margin: 20px 0 40px;
+}
+
+.sekolah{
+    margin-bottom: 5%;
+    margin-top: 10%;
+}
+
+.rs{
+    display: flex;
+    margin-top: 5%;
+    justify-content: center;
+}
+
+.riwayat{
+    margin-right: 5%;
+    text-align: center;
+    background-color: rgb(81, 81, 81);
+    border: solid rgb(34, 34, 34);
+    border-radius: 5px;
+    width: 15%;
+}
+
+.riwayat a,img{
+    color: rgb(0, 121, 185);
+}
+
+.foto{
+    margin-top: 3%;
+    width: 150;
+    height: 100;
+    border-radius: 50px;
+}
+
+.punya{
+    text-align: center;
+    margin-top: 25px;
+    color:white;
+}
+
+.foto2{
+    text-align: center;
+    border-radius: 20px; 
+}
+
+.foto3{
+    text-align: center;
+}
+
+.foto4{
+    text-align: center;
+    margin-top: 25px;
+    border-radius: 20px;
+}
